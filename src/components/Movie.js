@@ -2,6 +2,7 @@ import React from 'react';
 import {Grid, Card} from 'semantic-ui-react';
 
 export default function Movie({data}) {
+    
     return (
         <>
             <h1>The saga of Star Wars</h1>

@@ -28,11 +28,13 @@ function App() {
       setMovie(data.results);
       setLoad(false);
     }
+
     fetchPeople();
     fetchMovie();
 
   }, []);
 
+  
   return (
     <>
       <Router>
